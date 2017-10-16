@@ -68,7 +68,7 @@ WhereIn:
 ------
       $arrayz($array)->where( 'fmo_id', ['34','35'] )->get(); // Will return the array where matches fmo_id is 34 and 35
 
-WhereIn: 
+WhereNotIn: 
 ------
       $arrayz($array)->where('fmo_id', ['34','35'] )->get(); // Will return the array where not matches fmo_id is 34 and 35
 
